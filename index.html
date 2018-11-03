@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link type="text/css" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+	<link type="text/css" rel="stylesheet" href="css/reset.css">
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<title>Ardoise Magique</title>
+</head>
+<body>
+	<div class="container" id="container">
+		<div class="border">
+			<canvas class="slate" id="slate" width="600" height="400"></canvas>
+		</div>
+		<div class="colors" id="colors">
+			<div style="background-color: #000000"></div>
+			<div style="background-color: #BF0000"></div>
+			<div style="background-color: #096A09"></div>
+			<div style="background-color: #318CE7"></div>
+			<div style="background-color: #FFFF00"></div>
+			<div style="background-color: #FD6C9E"></div>
+			<div style="background-color: #660099"></div>
+			<div style="background-color: #677179"></div>
+			<div style="background-color: #ED7F10"></div>
+		</div>
+		<p>Veuillez utiliser votre clavier numérique pour pouvoir dessiner sur l'ardoise</p>
+		<div class="controls" id="controls">
+			<div class="buttons">
+				<div class="top">
+					<button class="up" id="up"><i class="fa fa-arrow-up"></i></button>
+				</div>
+				<div class="middle">
+					<button class="left" id="left"><i class="fa fa-arrow-left"></i></button>
+					<button class="erase" id="erase"><i class="fa fa-eraser"></i></button>
+					<button class="right" id="right"><i class="fa fa-arrow-right"></i></button>
+				</div>
+				<div class="bottom">
+					<button class="down" id="down"><i class="fa fa-arrow-down"></i></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/Slate.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
